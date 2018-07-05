@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FineSaude</string>
+    <string name="login">Login</string>
+    <string name="senha">Senha</string>
+    <string name="altura">Altura</string>
+    <string name="peso">Peso</string>
+    <string name="calcular">Calcular</string>
+    <string name="title_activity_segunda_pagina">SegundaPagina</string>
+    <string name="painel_alergia">Histórico Alérgico</string>
+    <string name="painelMedidas">Medidas</string>
+    <string name="painel_dieta">Dieta</string>
+    <string name="IMC">IMC</string>
+    <string name="editar">editar</string>
+    <string name="salvar">salvar</string>
+    <string name="excluir">excluir</string>
+    <string name="title_activity_historico_alergico">HistoricoAlergico</string>
+</resources>
