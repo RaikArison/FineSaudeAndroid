@@ -1,7 +1,6 @@
 package com.example.arisonraik.finesaude;
 
 import android.os.Bundle;
-//import android.R;
 import com.example.arisonraik.finesaude.BuildConfig;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -34,6 +33,9 @@ public class SegundaPagina extends AppCompatActivity {
         }
         else if(resultado > 32){
             Resultado.setText("Acima do nível Ideal");
+        }
+        else if(resultado > 40){
+            Resultado.setText("Obeso");
         }
         else{
             Resultado.setText("Nivel ideal atingido");

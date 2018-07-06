@@ -26,7 +26,7 @@ import rx.schedulers.Schedulers;
 
 public class PanelActivity extends AppCompatActivity  implements View.OnClickListener {
 
-    /*private final String TAG = PanelActivity.class.getSimpleName();
+    private final String TAG = PanelActivity.class.getSimpleName();
     List<UsuarioAPI> mUsuario;
     ListView mListView;
     TextView tMessage;
@@ -48,12 +48,6 @@ public class PanelActivity extends AppCompatActivity  implements View.OnClickLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_panel);
 
-        tMessage = (TextView) findViewById(R.id.uApiAlerta);
-        nomeView = (TextView) findViewById(R.id.uApiNome);
-        idadeView = (TextView) findViewById(R.id.uApiIdade);
-        alturaView = (TextView) findViewById(R.id.uApiAltura);
-        pesoView = (TextView) findViewById(R.id.uApiPeso);
-
         // click dos botões
         Button butonMedidas = (Button) findViewById(R.id.buttonMedidas);
         butonMedidas.setOnClickListener(this);
@@ -61,9 +55,11 @@ public class PanelActivity extends AppCompatActivity  implements View.OnClickLis
         buttonDieta.setOnClickListener(this);
         Button butonAlergia = (Button) findViewById(R.id.buttonalergia);
         butonAlergia.setOnClickListener(this);
+        Button buttonIMC = (Button) findViewById(R.id.buttonIMC);
+        butonMedidas.setOnClickListener(this);
 
-        fazerChamada();
-    }*/
+        //fazerChamada();
+    }
 
 
 
@@ -111,7 +107,7 @@ public class PanelActivity extends AppCompatActivity  implements View.OnClickLis
             case R.id.buttondieta:
                 //if(alerta != null){
 
-                    Toast.makeText(PanelActivity.this,"Ainda não implementado", Toast.LENGTH_LONG).show();
+                    //Toast.makeText(PanelActivity.this,"Ainda não implementado", Toast.LENGTH_LONG).show();
                     /*break;
 
                 } else {
